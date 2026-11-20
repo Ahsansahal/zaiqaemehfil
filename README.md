@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Zaiqa-E-Mehfil — Next.js Website
 
 Pakistani, Afghan & Indo-Chinese restaurant website for **Zaiqa-E-Mehfil** (156 Greenford Road, Sudbury Hill, Harrow HA1 3QS), converted from static HTML to **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS v4**, **Framer Motion (`LazyMotion`)**, and **Lenis** smooth scrolling.
@@ -31,3 +32,6 @@ npm run start
 - **Data (`src/data/`)**: `site.ts` and `menu.ts` (all 119 dishes typed).
 - **Fonts**: Self-hosted `Cormorant Garamond` and `Plus Jakarta Sans` via `next/font/local` (zero external font requests).
 - **Backup**: Original static HTML files are preserved in `_legacy-html/`.
+=======
+# zaiqaemehfil
+>>>>>>> 8e8fce7da9d2681f896a079029c293ac204d07d6
