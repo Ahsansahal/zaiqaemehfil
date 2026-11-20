@@ -61,7 +61,7 @@ export default function HomePage() {
         aria-labelledby="feat-h"
         className="paper below-fold bg-bone text-bone-soft relative py-[clamp(3.6rem,8vw,7rem)] before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-px before:bg-gold-deep before:opacity-45 after:content-[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:h-px after:bg-gold-deep after:opacity-45"
       >
-        <div className="max-w-[1240px] mx-auto px-5 lg:px-10">
+        <div className="max-w-[96%] mx-auto px-5 lg:px-10">
           <Reveal className="max-w-[60ch] mb-[clamp(2.2rem,4.5vw,3.6rem)]">
             <span className="inline-flex items-center gap-2 rounded-full py-[0.38rem] px-[0.9rem] text-[10.5px] sm:text-[11px] font-semibold tracking-[0.14em] sm:tracking-[0.2em] uppercase text-bone-gold bg-[rgba(122,92,14,0.08)] border border-[rgba(122,92,14,0.22)] mb-5">
               Signature dishes
@@ -159,7 +159,7 @@ export default function HomePage() {
 
       {/* Charcoal grill split section with scroll-linked image depth */}
       <section aria-labelledby="grill-h" className="below-fold py-[clamp(3.6rem,8vw,7rem)]">
-        <div className="max-w-[1240px] mx-auto px-5 lg:px-10 grid gap-[clamp(2.2rem,5vw,4rem)] items-center min-[900px]:grid-cols-[0.85fr_1.15fr]">
+        <div className="max-w-[96%] mx-auto px-5 lg:px-10 grid gap-[clamp(2.2rem,5vw,4rem)] items-center min-[900px]:grid-cols-[0.85fr_1.15fr]">
           <Reveal className="bez max-w-[620px] min-[900px]:max-w-none w-full">
             <div className="core">
               <ParallaxWrap
@@ -222,7 +222,7 @@ export default function HomePage() {
         aria-labelledby="drinks-h"
         className="py-[clamp(3.6rem,8vw,7rem)] border-t border-[rgba(240,234,222,0.06)]"
       >
-        <div className="max-w-[1240px] mx-auto px-5 lg:px-10">
+        <div className="max-w-[96%] mx-auto px-5 lg:px-10">
           <Reveal className="max-w-[60ch] mb-[clamp(2.2rem,4.5vw,3.6rem)]">
             <span className="inline-flex items-center gap-2 rounded-full py-[0.38rem] px-[0.9rem] text-[10.5px] sm:text-[11px] font-semibold tracking-[0.14em] sm:tracking-[0.2em] uppercase text-gold bg-[rgba(227,197,111,0.14)] border border-[rgba(227,197,111,0.22)] mb-5">
               Mojitos &amp; cold drinks
@@ -312,7 +312,7 @@ export default function HomePage() {
           />
         </div>
 
-        <div className="relative z-10 max-w-[1240px] mx-auto px-5 lg:px-10 py-[clamp(3.6rem,8vw,7rem)] grid gap-10 items-center min-[1180px]:grid-cols-[1.05fr_0.95fr] min-[1180px]:gap-16">
+        <div className="relative z-10 max-w-[96%] mx-auto px-5 lg:px-10 py-[clamp(3.6rem,8vw,7rem)] grid gap-10 items-center min-[1180px]:grid-cols-[1.05fr_0.95fr] min-[1180px]:gap-16">
           <Reveal>
             <span className="inline-flex items-center gap-2 rounded-full py-[0.38rem] px-[0.9rem] text-[10.5px] sm:text-[11px] font-semibold tracking-[0.14em] sm:tracking-[0.2em] uppercase text-gold bg-[rgba(227,197,111,0.14)] border border-[rgba(227,197,111,0.22)]">
               Catering &amp; events

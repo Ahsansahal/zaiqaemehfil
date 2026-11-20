@@ -65,7 +65,7 @@ export function MenuBrowser() {
   }, [query]);
 
   return (
-    <div className="max-w-[1240px] mx-auto px-5 lg:px-10">
+    <div className="max-w-[96%] mx-auto px-5 lg:px-10">
       {/* Sticky category rail + search */}
       <div className="sticky top-[calc(env(safe-area-inset-top,0px)+78px)] z-12 mb-9 space-y-2.5">
         <nav aria-label="Menu categories">

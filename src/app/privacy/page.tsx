@@ -29,7 +29,7 @@ export default function PrivacyPage() {
       />
 
       <section className="relative overflow-hidden pt-[clamp(7rem,12vw,9rem)] pb-[clamp(2.6rem,5vw,4rem)] border-b border-[rgba(240,234,222,0.06)] before:content-[''] before:absolute before:-top-[40%] before:-right-[10%] before:w-[min(640px,80vw)] before:aspect-square before:bg-[radial-gradient(circle,rgba(227,197,111,0.09)_0%,transparent_62%)] before:pointer-events-none">
-        <div className="relative max-w-[1240px] mx-auto px-5 lg:px-10">
+        <div className="relative max-w-[96%] mx-auto px-5 lg:px-10">
           <Reveal y={18}>
             <span className="inline-flex items-center gap-2 rounded-full py-[0.38rem] px-[0.9rem] text-[10.5px] sm:text-[11px] font-semibold tracking-[0.14em] sm:tracking-[0.2em] uppercase text-gold bg-[rgba(227,197,111,0.14)] border border-[rgba(227,197,111,0.22)]">
               Privacy
@@ -46,7 +46,7 @@ export default function PrivacyPage() {
       </section>
 
       <section className="py-[clamp(3.6rem,8vw,7rem)]">
-        <div className="max-w-[1240px] mx-auto px-5 lg:px-10">
+        <div className="max-w-[96%] mx-auto px-5 lg:px-10">
           <div className="max-w-[68ch] space-y-4 text-base leading-[1.72] text-fg-soft">
             <h2 className="font-serif text-[clamp(1.6rem,3vw,2.1rem)] text-fg font-semibold leading-[1.1] mt-0 mb-3">
               Who we are

@@ -225,7 +225,7 @@ export function BookingForm() {
       aria-labelledby="book-h"
       className="py-[clamp(3.6rem,8vw,7rem)] bg-ink border-y border-[rgba(240,234,222,0.06)]"
     >
-      <div className="max-w-[1240px] mx-auto px-5 lg:px-10 grid gap-[clamp(2rem,4vw,3rem)] items-start min-[980px]:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)] min-[980px]:gap-16">
+      <div className="max-w-[96%] mx-auto px-5 lg:px-10 grid gap-[clamp(2rem,4vw,3rem)] items-start min-[980px]:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)] min-[980px]:gap-16">
         <div className="min-[980px]:sticky min-[980px]:top-[120px]">
           <span className="inline-flex items-center gap-2 rounded-full py-[0.38rem] px-[0.9rem] text-[10.5px] sm:text-[11px] font-semibold tracking-[0.14em] sm:tracking-[0.2em] uppercase text-gold bg-[rgba(227,197,111,0.14)] border border-[rgba(227,197,111,0.22)]">
             Book a table

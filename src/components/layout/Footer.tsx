@@ -12,7 +12,7 @@ export function Footer() {
 
   return (
     <footer className="py-[clamp(3.5rem,7vw,5rem)] pb-10 border-t border-[rgba(240,234,222,0.06)] bg-void">
-      <div className="max-w-[1240px] mx-auto px-5 lg:px-10">
+      <div className="max-w-[96%] mx-auto px-5 lg:px-10">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <Image

@@ -116,7 +116,7 @@ export default function AboutPage() {
 
       {/* Page hero */}
       <section className="relative overflow-hidden pt-[clamp(7rem,12vw,9rem)] pb-[clamp(2.6rem,5vw,4rem)] border-b border-[rgba(240,234,222,0.06)] before:content-[''] before:absolute before:-top-[40%] before:-right-[10%] before:w-[min(640px,80vw)] before:aspect-square before:bg-[radial-gradient(circle,rgba(227,197,111,0.09)_0%,transparent_62%)] before:pointer-events-none">
-        <div className="relative max-w-[1240px] mx-auto px-5 lg:px-10 min-[1000px]:grid min-[1000px]:grid-cols-[minmax(0,1.45fr)_minmax(0,0.75fr)] min-[1000px]:gap-16 min-[1000px]:items-center">
+        <div className="relative max-w-[96%] mx-auto px-5 lg:px-10 min-[1000px]:grid min-[1000px]:grid-cols-[minmax(0,1.45fr)_minmax(0,0.75fr)] min-[1000px]:gap-16 min-[1000px]:items-center">
           <Reveal y={18}>
             <span className="inline-flex items-center gap-2 rounded-full py-[0.38rem] px-[0.9rem] text-[10.5px] sm:text-[11px] font-semibold tracking-[0.14em] sm:tracking-[0.2em] uppercase text-gold bg-[rgba(227,197,111,0.14)] border border-[rgba(227,197,111,0.22)]">
               Our story
@@ -165,7 +165,7 @@ export default function AboutPage() {
 
       {/* Story + sticky name card */}
       <section aria-labelledby="story-h" className="py-[clamp(3.6rem,8vw,7rem)]">
-        <div className="max-w-[1240px] mx-auto px-5 lg:px-10 grid gap-[clamp(2.2rem,5vw,4.5rem)] items-start min-[900px]:grid-cols-[0.8fr_1.2fr]">
+        <div className="max-w-[96%] mx-auto px-5 lg:px-10 grid gap-[clamp(2.2rem,5vw,4.5rem)] items-start min-[900px]:grid-cols-[0.8fr_1.2fr]">
           <Reveal className="min-[900px]:sticky min-[900px]:top-[120px]">
             <div className="bez">
               <div
@@ -267,7 +267,7 @@ export default function AboutPage() {
         aria-labelledby="val-h"
         className="paper bg-bone text-bone-soft relative py-[clamp(3.6rem,8vw,7rem)] before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-px before:bg-gold-deep before:opacity-45 after:content-[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:h-px after:bg-gold-deep after:opacity-45"
       >
-        <div className="max-w-[1240px] mx-auto px-5 lg:px-10">
+        <div className="max-w-[96%] mx-auto px-5 lg:px-10">
           <Reveal className="max-w-[60ch] mb-[clamp(2.2rem,4.5vw,3.6rem)]">
             <span className="inline-flex items-center gap-2 rounded-full py-[0.38rem] px-[0.9rem] text-[10.5px] sm:text-[11px] font-semibold tracking-[0.14em] sm:tracking-[0.2em] uppercase text-bone-gold bg-[rgba(122,92,14,0.08)] border border-[rgba(122,92,14,0.22)] mb-5">
               What to expect
@@ -298,7 +298,7 @@ export default function AboutPage() {
 
       {/* Three cuisines trio */}
       <section aria-labelledby="trio-h" className="py-[clamp(3.6rem,8vw,7rem)]">
-        <div className="max-w-[1240px] mx-auto px-5 lg:px-10">
+        <div className="max-w-[96%] mx-auto px-5 lg:px-10">
           <Reveal className="max-w-[60ch] mb-[clamp(2.2rem,4.5vw,3.6rem)]">
             <span className="inline-flex items-center gap-2 rounded-full py-[0.38rem] px-[0.9rem] text-[10.5px] sm:text-[11px] font-semibold tracking-[0.14em] sm:tracking-[0.2em] uppercase text-gold bg-[rgba(227,197,111,0.14)] border border-[rgba(227,197,111,0.22)] mb-5">
               The menu

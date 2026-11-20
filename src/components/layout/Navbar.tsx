@@ -48,7 +48,7 @@ export function Navbar() {
     <>
       <header className="fixed top-0 left-0 right-0 z-40 pt-[calc(env(safe-area-inset-top,0px)+14px)] px-3 flex justify-center pointer-events-none">
         <div
-          className={`pointer-events-auto flex items-center justify-between gap-5 w-full max-w-[960px] rounded-full p-[0.42rem] border border-[rgba(240,234,222,0.12)] backdrop-blur-xl backdrop-saturate-[1.3] transition-colors duration-500 ${
+          className={`pointer-events-auto flex items-center justify-between gap-5 w-full max-w-[80%] rounded-full p-[0.42rem] border border-[rgba(240,234,222,0.12)] backdrop-blur-xl backdrop-saturate-[1.3] transition-colors duration-500 ${
             solid ? "bg-[rgba(10,11,13,0.92)]" : "bg-[rgba(16,18,22,0.68)]"
           }`}
         >

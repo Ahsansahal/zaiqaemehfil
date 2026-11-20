@@ -16,7 +16,7 @@ export function CtaBand({
 }: CtaBandProps) {
   return (
     <section aria-label="Book or call" className="py-[clamp(3.6rem,8vw,7rem)]">
-      <div className="max-w-[1240px] mx-auto px-5 lg:px-10">
+      <div className="max-w-[96%] mx-auto px-5 lg:px-10">
         <Reveal className="bez">
           <div className="core p-[clamp(1.8rem,4vw,3rem)]">
             <div className="grid gap-6 items-center min-[900px]:grid-cols-[1.2fr_0.8fr]">

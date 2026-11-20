@@ -28,7 +28,7 @@ export function ReviewsSection() {
       aria-labelledby="rev-h"
       className="py-[clamp(3.6rem,8vw,7rem)]"
     >
-      <div className="max-w-[1240px] mx-auto px-5 lg:px-10">
+      <div className="max-w-[96%] mx-auto px-5 lg:px-10">
         <div className="grid gap-8 items-end mb-[clamp(2rem,4vw,3rem)] min-[980px]:grid-cols-2 min-[980px]:gap-16">
           <Reveal>
             <span className="inline-flex items-center gap-2 rounded-full py-[0.38rem] px-[0.9rem] text-[10.5px] sm:text-[11px] font-semibold tracking-[0.14em] sm:tracking-[0.2em] uppercase text-gold bg-[rgba(227,197,111,0.14)] border border-[rgba(227,197,111,0.22)] mb-5">

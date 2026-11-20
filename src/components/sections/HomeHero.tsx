@@ -59,7 +59,7 @@ export function HomeHero() {
         />
       </div>
 
-      <div className="max-w-[1240px] mx-auto px-5 lg:px-10 pt-[calc(min(100vw,600px)-64px)] pb-7 min-[900px]:min-h-[min(88svh,820px)] min-[900px]:flex min-[900px]:items-center min-[900px]:pt-[clamp(7rem,10vw,8rem)] min-[900px]:pb-8">
+      <div className="max-w-[96%] mx-auto px-5 lg:px-10 pt-[calc(min(100vw,600px)-64px)] pb-7 min-[900px]:min-h-[min(88svh,820px)] min-[900px]:flex min-[900px]:items-center min-[900px]:pt-[clamp(7rem,10vw,8rem)] min-[900px]:pb-8">
         <m.div style={{ y: copyY }} className="max-w-[640px] will-change-transform">
           <m.div
             initial={{ y: 14 }}
@@ -154,7 +154,7 @@ export function HomeHero() {
       </div>
 
       {/* Proof stats bar */}
-      <div className="max-w-[1240px] mx-auto px-5 lg:px-10 pb-[clamp(2.4rem,5vw,3.6rem)] relative">
+      <div className="max-w-[96%] mx-auto px-5 lg:px-10 pb-[clamp(2.4rem,5vw,3.6rem)] relative">
         <m.ul
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}

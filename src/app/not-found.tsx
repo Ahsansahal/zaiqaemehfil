@@ -5,7 +5,7 @@ import { ArrowUpRightIcon, ListIcon, PhoneIcon } from "@/components/ui/Icons";
 export default function NotFound() {
   return (
     <section className="min-h-[72vh] grid place-items-center text-center pt-32 pb-16">
-      <div className="max-w-[1240px] mx-auto px-5 lg:px-10">
+      <div className="max-w-[96%] mx-auto px-5 lg:px-10">
         <p className="font-serif font-semibold text-gold leading-none text-[clamp(5rem,16vw,9rem)]">
           404
         </p>
